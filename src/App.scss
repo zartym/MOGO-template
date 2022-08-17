@@ -1,0 +1,71 @@
+@import './styles/shared.scss';
+@import './styles/header.scss';
+@import './styles/section.scss';
+@import './styles/footer.scss';
+@import './styles/card.scss';
+@import './styles/navigation.scss';
+@import './styles/input.scss';
+@import './styles/button.scss';
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+figure,
+span {
+  margin: 0;
+  font-weight: normal;
+}
+
+body,
+html {
+  font-family: $primary-font-family;
+}
+
+hr {
+  border: 1px solid $color-mono100;
+}
+
+h1 {
+  font-size: 130px;
+  line-height: 120px;
+  font-family: $secondary-font-family;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: $accent-font-family;
+}
+
+h3 {
+  font-family: $secondary-font-family;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h4 {
+  font-family: $accent-font-family;
+  font-size: 30px;
+  text-align: center;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: $secondary-font-family;
+  color: $color-mono500;
+  font-weight: bold;
+}
+
+p {
+  color: $color-mono200;
+}

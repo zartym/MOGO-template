@@ -1,0 +1,20 @@
+.button {
+  height: 40px;
+  padding: 0 40px;
+  background: $color-contrast;
+  border-color: $color-contrast;
+  border: 3px solid $color-contrast;
+  box-shadow: none;
+
+  color: $color-solid-white;
+  font-family: $secondary-font-family;
+  font-size: 10pt;
+  font-weight: bold;
+
+  text-transform: uppercase;
+
+  &--secondary {
+    background: none;
+    border-color: $color-solid-white;
+  }
+}

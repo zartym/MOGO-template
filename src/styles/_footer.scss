@@ -1,0 +1,19 @@
+.footer {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 50px auto;
+  align-items: center;
+
+  &--content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--newsletter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
