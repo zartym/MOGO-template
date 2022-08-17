@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MOGO-template/static/css/main.fac3cdfd.css",
-    "main.js": "/MOGO-template/static/js/main.9afad13f.js",
+    "main.js": "/MOGO-template/static/js/main.96df596e.js",
     "static/js/787.02fb6984.chunk.js": "/MOGO-template/static/js/787.02fb6984.chunk.js",
     "static/media/banner.png": "/MOGO-template/static/media/banner.1acfc3465ac6bac68ba8.png",
     "index.html": "/MOGO-template/index.html",
     "main.fac3cdfd.css.map": "/MOGO-template/static/css/main.fac3cdfd.css.map",
-    "main.9afad13f.js.map": "/MOGO-template/static/js/main.9afad13f.js.map",
+    "main.96df596e.js.map": "/MOGO-template/static/js/main.96df596e.js.map",
     "787.02fb6984.chunk.js.map": "/MOGO-template/static/js/787.02fb6984.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fac3cdfd.css",
-    "static/js/main.9afad13f.js"
+    "static/js/main.96df596e.js"
   ]
 }
