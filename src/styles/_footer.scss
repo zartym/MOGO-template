@@ -5,15 +5,28 @@
   margin: 50px auto;
   align-items: center;
 
+  @media (max-width: 1200px) {
+    max-width: 90vw;
+  }
+
   &--content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    @media (max-width: 1200px) {
+      padding-top: 10px;
+      flex-direction: column-reverse;
+    }
+
     &--newsletter {
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @media (max-width: 1200px) {
+        margin-bottom: 10px;
+      }
     }
   }
 }

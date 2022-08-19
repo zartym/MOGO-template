@@ -37,11 +37,20 @@ h1 {
   line-height: 120px;
   font-family: $secondary-font-family;
   font-weight: bold;
+
+  @media (max-width: 1200px) {
+    font-size: 50px;
+    line-height: 55px;
+  }
 }
 
 h2 {
   font-size: 60px;
   font-family: $accent-font-family;
+  @media (max-width: 1200px) {
+    font-size: 30px;
+    line-height: 35px;
+  }
 }
 
 h3 {

@@ -14,12 +14,16 @@ function App() {
           <h3 className="text--white ">MoGo</h3>
           <div className="navigation--links">
             {NAVIGATION_LINK.map((navigationLink, index) => (
-              <a key={index} href="#" className="navigation--link">
+              <a key={`nav-${index}`} href="#" className="navigation--link">
                 {navigationLink}
               </a>
             ))}
             {NAVIGATION_ICON_LINK_PATHS.map((navigationLinkIconPath, index) => (
-              <a key={index} href="#" className="navigation--link">
+              <a
+                key={`nav-icon-${index}`}
+                href="#"
+                className="navigation--link"
+              >
                 <img src={navigationLinkIconPath} alt="navigation-icon" />
               </a>
             ))}
@@ -41,8 +45,8 @@ function App() {
           <h3>amazing services</h3>
         </header>
         <div className="section--container">
-          {SERVICES_SECTIONS.map((section) => (
-            <article className="paper">
+          {SERVICES_SECTIONS.map((section, index) => (
+            <article key={`section-${index}`} className="paper">
               <div className="paper--icon">
                 <img src={section.icon} alt={`service-icon-${section}`} />
               </div>
@@ -74,7 +78,10 @@ function App() {
               <div className="card--image">
                 <div className="card--image--socials">
                   {Object.keys(teamMember.socials).map((social, index) => (
-                    <div key={index} className="card--image--socials--box">
+                    <div
+                      key={`${social}-${index}`}
+                      className="card--image--socials--box"
+                    >
                       <img src={SOCIAL_PATH(social)} alt={social} />
                     </div>
                   ))}
@@ -83,7 +90,7 @@ function App() {
                   <picture>
                     <source
                       media="(min-width: 2000px)"
-                      srcset={`${teamMember.image}_x2`}
+                      srcSet={`${teamMember.image}_x2`}
                     />
                     <img
                       className="h-100"
@@ -95,7 +102,7 @@ function App() {
               </div>
               <figcaption className="card--content">
                 <h5 className="text--center m-t-15">{teamMember.name}</h5>
-                <p className="text--center m-t-5">{teamMember.role}</p>
+                <p className="text--center m-t-5 m-b-15">{teamMember.role}</p>
               </figcaption>
             </div>
           ))}
